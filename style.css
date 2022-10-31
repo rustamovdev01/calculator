@@ -80,3 +80,70 @@ span:hover {
     margin-top: 50px;
     margin-left: -25px;
 }
+.text{
+    position: absolute;
+    color: rgb(118, 218, 18);
+    text-shadow: 4px 4px 3px rgba(15,193,238,0.83);
+    float: right;
+    right: 65%;
+    font-size: 45px;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+@keyframes text {
+    0% {
+        top: 0;
+        left: 3%;
+    }
+    50% {
+        top: 30%;
+        left: 3%;
+        color: firebrick;
+        text-shadow: 4px 4px 3px rgba(238, 115, 15, 0.83);
+
+    }
+    100% {
+        top: 80%;
+        left: 3%;
+        color: gold;
+        text-shadow: 4px 4px 3px rgba(238, 234, 15, 0.83);
+
+    }
+}
+.texttwo{
+    position: absolute;
+    color: rgb(118, 218, 18);
+    text-shadow: 4px 4px 3px rgba(15,193,238,0.83);
+    float: left;
+    left: 65%;
+    font-size: 45px;
+    animation-name: texttwo;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;  
+}
+@keyframes texttwo {
+    0% {
+        top: 0;
+        left: 67%;
+    }
+    50% {
+        top: 30%;
+        left: 67%;
+        color: firebrick;
+        text-shadow: 4px 4px 3px rgba(238, 115, 15, 0.83);
+
+    }
+    100% {
+        top: 80%;
+        left: 67%;
+        color: gold;
+        text-shadow: 4px 4px 3px rgba(238, 234, 15, 0.83);
+
+    }
+}
